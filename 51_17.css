@@ -1,0 +1,39 @@
+html, body {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: #ecf0f1;
+}
+
+.btn {
+    width: 250px;
+    margin: 0 25px;
+    margin-top: 100px;
+    padding: 20px 0;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    background: #2c3e50;
+    
+    box-shadow: 
+        0 -20px 0 -10px #c0392b,
+        0 -40px 0 -20px #e74c3c, 
+        inset 0 -5px 0 0 #16a085, 
+        inset 0 5px 0 0 #16a085,
+        0 20px 0 -10px #2980b9,
+        0 40px 0 -20px #3498db;
+    
+    }
+    
+.help{
+    width: 125px;
+    height: 5px;
+    margin:0 25px;
+    box-shadow:
+        125px -5px 0 0 #2ecc71,
+        0 -60px 0 0 #2ecc71;
+}
