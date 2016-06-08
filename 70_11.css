@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 505px;
+    height: 260px;
+    padding-top:30px;
+    padding-left:15px;
+}
+
+.flag {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+.ireland {
+    /* цвета: #009B48, #FFF, #FF7900 */
+    background-image: linear-gradient(
+       90deg,
+       #009b48 33%,
+       #fff 33%,
+       #fff 66%,
+       #ff7900 66%
+       );
+}
+
+.trinidad {
+    /* цвета: #CE1126, #FFF, #000, #CE1126 */
+    background-image: linear-gradient(
+       45deg,
+       #ce1126 40%,
+       #fff 40%,
+       #fff 43%,
+       #000 43%,
+       #000 57%,
+       #fff 57%,
+       #fff 60%,
+       #ce1126 60%
+       );
+}
+
+.congo {
+    /* цвета: #009543, #FBDE4A, #DC241F */
+    background-image: linear-gradient(
+       135deg,
+       #009543 40%,
+       #FBDE4A 40%,
+       #FBDE4A 60%,
+       #DC241F 60%
+       );
+}
+
+.mauritius {
+    /* цвета: #EA2839, #1A206D,  #FFD500, #00A551 */
+    background-image: linear-gradient(
+       180deg,
+       #EA2839 25%,
+       #1A206D 25%,
+       #1a206d 50%,
+       #ffd500 50%,
+       #ffd500 75%,
+       #00A551 75%
+       );
+}
+
+.botswana {
+    /* цвета: #449ED3, #FFF, #000 */
+    background-image: linear-gradient(
+       180deg,
+       #449ED3 30%,
+       #fff 30%,
+       #fff 35%,
+       #000 35%,
+       #000 65%,
+       #fff 65%,
+       #fff 70%,
+       #449ed3 66%
+       );
+}
+
+.madagaskar {
+    /* цвета: #FC3D32, #007E3A */
+    background-image: linear-gradient(
+       180deg,
+       #FC3D32 50%,
+       #007E3A 50%
+       );
+
+    background-position: 50px 0;
+    background-repeat: no-repeat;
+}
